@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0b1120;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Cabecalho*/
+header {
+    background-color: #1e293b;
+    padding: 18px 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+
+.logo span {
+    font-size: 0.85rem;
+    color: #06b6d4;
+    margin-left: 2px;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: #e2e8f0;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.95rem;
+}
+
+/* Secao Hero */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 6%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 550px;
+}
+
+.hero-content h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 0.92rem;
+    color: #f8fafc;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+/* Botoes*/
+.btn-primary {
+    display: inline-block;
+    background-color: #38bdf8;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 12px 35px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+}
+
+.btn-large {
+    padding: 16px 65px;
+    font-size: 1rem;
+}
+
+/*Seccao vantagens*/
+.advantages  {
+    padding: 70px 6%;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.advantages h2 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+.advantages .subtitle {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #161b22;
+    border-radius: 30px;
+    padding: 35px 28px 45px;
+    width: 300px;
+    text-align: left;
+    position: relative;
+}
+
+.card-number {
+    width: 42px;
+    height: 42px;
+    border: 2px solid #38bdf8;
+    border-radius: 50%;
+    color: #38bdf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+.card h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 0.88rem;
+    color: #f8fafc;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/* CTA */
+.cta {
+    text-align: center;
+    padding: 90px 6% 110px;
+}
+
+.cta h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.cta p {
+    font-size: 1.5rem;
+    color: #f8fafc;
+    margin-bottom: 35px;
+}
