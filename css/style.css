@@ -24,7 +24,6 @@ header {
     align-items: center;
     position: sticky;
     top: 0;
-    z-index: 100;
 }
 
 .logo {
@@ -39,7 +38,7 @@ header {
     font-size: 0.85rem;
     color: #06b6d4;
     margin-left: 2px;
-    font-weight: 700;
+    font-weight: 700;      /*Espessura de texto*/
 }
 
 nav ul {
@@ -57,11 +56,11 @@ nav a {
 
 /* Secao Hero */
 .hero {
-    display: flex;
+    display: flex; /*Transforma os elementos num flex container e oraganiza os filhos numa unica direcao horizontal ou vertical*/
     align-items: center;
     justify-content: space-between;
-    padding: 80px 6%;
-    max-width: 1300px;
+    padding: 80px 6%;   /*Espacamento interno vertical ou horizontal*/
+    max-width: 1300px;  /*Largura maxima*/
     margin: 0 auto;
 }
 
@@ -127,7 +126,7 @@ nav a {
     display: flex;
     justify-content: center;
     gap: 35px;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* permite que os elementos passem para outra linha quando nao existir espaco sufiicente*/
 }
 
 .card {
