@@ -182,3 +182,13 @@ nav a {
     color: #f8fafc;
     margin-bottom: 35px;
 }
+
+footer{
+    background-color: #1e293b;
+    padding: 40px 6% 20px;
+}
+
+.footer-columns {
+    gap: 15px;
+
+}
